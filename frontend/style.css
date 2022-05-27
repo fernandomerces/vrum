@@ -1,0 +1,37 @@
+* {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+#titulo {
+    margin: 0 auto;
+}
+
+#paragrafo {
+    font-size: 1.1em;
+}
+
+#botao-carregar {
+    width: 100px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(3, 111, 184);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.226);
+}
+
+#tabela-carros {
+    border-collapse: collapse;
+}
+
+#tabela-carros th, 
+#tabela-carros td {
+    border:  1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#tabela-carros tr:hover td {
+    background-color: lightgray;
+}
