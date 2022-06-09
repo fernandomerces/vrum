@@ -14,7 +14,7 @@ CORS(app)
 
 @app.route("/") # rota raíz
 def raiz():
-    return "Resposta do meu backend em Python!"
+    return "VRUM - Cadastro de Animes 2022 Pro"
 
 @app.route("/todos")
 def todos():
