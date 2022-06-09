@@ -3,6 +3,9 @@ import sqlite3
 from flask import Flask, jsonify
 from flask_cors import CORS
 
+def divide(a, b):
+    return a / b
+
 def pega_conexao():
     nome_banco = "animes.db"
     con = sqlite3.connect(nome_banco) # Conecta no banco
